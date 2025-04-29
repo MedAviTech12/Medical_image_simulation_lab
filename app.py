@@ -149,7 +149,7 @@ if st.session_state.selected_tab == "home":
         The **Image Processing Lab** focuses on exploring the theoretical and practical aspects of medical image transformations.
         We work with techniques like DCT, FFT, and their applications in medical fields.
     """)
-    st.image("C:/Users/ajha1/Downloads/MIP simulation task/Medical Image Processing.jpeg", caption="Medical Image Processing", use_container_width=True)
+    st.image("Medical Image Processing.jpeg", caption="Medical Image Processing", use_container_width=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
 # ---------------------------------------
