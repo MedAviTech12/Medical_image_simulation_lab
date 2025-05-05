@@ -156,11 +156,7 @@ st.session_state.selected_tab = menu_options[selected_label]
 # Home Tab
 # ---------------------------------------
 if st.session_state.selected_tab == "home":
-    st.image(
-    "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/SRM_Institute_of_Science_and_Technology_Logo.svg/1200px-SRM_Institute_of_Science_and_Technology_Logo.svg.png",
-    caption="SRM Institute of Science and Technology",
-    use_container_width=True
-)
+    
 
     st.markdown('<div class="main-content">', unsafe_allow_html=True)
     st.header("Image Processing Lab")
