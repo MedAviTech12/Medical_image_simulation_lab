@@ -9,7 +9,16 @@ from io import BytesIO
 # Page config
 st.set_page_config(page_title="Image Processing Lab", layout="wide")
 
-
+st.markdown(
+    """
+    <div style="text-align: left;">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/SRM_Institute_of_Science_and_Technology_Logo.svg/1200px-SRM_Institute_of_Science_and_Technology_Logo.svg.png"
+             alt="SRM Logo" width="200">
+        <p><strong>SRM Institute of Science and Technology</strong></p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 # Custom CSS for Medical Image Processing Simulation
 st.markdown("""
     <style>
